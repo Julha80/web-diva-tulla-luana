@@ -1,0 +1,60 @@
+body {
+    color: rgb(240, 228, 69);
+    background: rgb(252, 232, 191);
+    margin: 0px;
+    font-family: "Varela Round", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(241, 226, 209);
+    padding: 20px;
+    font-size: 38px;
+    color: rgb(219, 219, 8);
+}
+
+.chamada {
+    background: rgb(172, 168, 168);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(255, 255, 7);
+}
+
+.categoria h2 {
+    color: cor do titulo da parte dos videos;
+}
